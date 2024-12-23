@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+    <p>Existe também essa variação: (Vizualmente é igual, olhe o código)</p>
+    <picture>
+        <source media="(min-width: 1050px)" srcset="imagens/foto-g.png" type="image/png">
+        <source media="(min-width: 750px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-p.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo Áudios</h1>
+    <p>Vamos aprender logo abaixo como reproduzir mídias de áudio</p>
+    <audio src="midia/Aumenta o som.mp3" preload="metadata" controls>
+    </audio>
+    <br>
+    <audio controls preload="metadata" >
+        <source src="midia/je te laisserai des mots﹝sped up﹞(M4A_128K).m4a" type="audio/mp4">
+        <source src="midia/je te laisserai des mots﹝sped up﹞(M4A_128K).ogg" type="audio/ogg">
+        <source src="midia/je te laisserai des mots﹝sped up﹞(M4A_128K).wav" type="audio/wav">
+        <p>
+            Infelizmente, seu navegador não é capaz de carregar o áudio, <a href="midia/je te laisserai des mots﹝sped up﹞(M4A_128K).m4a" type="audio/mp4" download="je te laisserai des mots﹝sped up﹞(M4A_128K).m4a">clique aqui para fazer o download em mp3</a>
+        </p>
+    </audio>
+</body>
+</html>

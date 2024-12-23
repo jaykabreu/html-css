@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+        /*sempre o primeiro elemento em CSS se houver @*/
+
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            /*
+            Medidas absolutas:
+            cm, mm, in (polegada), px, pt (ponto), pc (paica).
+
+            Medidas relativas:
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            
+            *Recomendação da W3C, usar px e em
+            */
+
+            /*lighter, normal, bold, bolder*/
+        }
+
+        h1 {
+            /*font-family: 'Work Sans';
+            font-weight: bold;
+            font-style: normal;
+            font-size: 2em;*/
+
+            /* Shorthand font
+            -font-style -> font-weight -> font-size -> font-family */
+            font: italic bold 2em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: normal 500 1.5em 'Work Sans', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fontes Representadas em CSS</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure est beatae libero dicta officia quasi facilis adipisci fugiat, fugit animi, sit ratione expedita autem velit aperiam perferendis quod provident assumenda repellat. Distinctio eligendi autem similique dolore quaerat, tempore quae voluptatibus. Consequuntur voluptas minus ducimus, possimus eos cumque, ab, nobis rerum similique hic nulla sit eaque? Veniam quos aliquid magnam doloribus?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur voluptatum similique obcaecati possimus eum omnis, ipsam mollitia recusandae, quae atque dolorum harum nisi ducimus in laboriosam odio aperiam officiis molestias.</p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi nulla, id itaque omnis placeat voluptatem impedit eum, incidunt illum amet harum, labore esse. Eligendi dolorem minima commodi sit dignissimos tempore ullam. Nobis architecto pariatur provident, ipsa obcaecati laudantium eius officia consequuntur quod vero eum voluptatem unde sint accusantium doloribus repellendus!</p>
+</body>
+</html>

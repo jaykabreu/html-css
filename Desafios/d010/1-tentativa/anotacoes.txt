@@ -1,0 +1,14 @@
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l2UDgpLz20M?si=s7RZMxh301PiUAkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                <li>4.1 - Jelly Bean
+                <li>4.4 - KitKat
+                <li>5.0 - Lolipop
+                <li>6.0 - Marshmallow
+                <li>7.0 - Nougat
+                <li>8.0 - Oreo
+                <li>9.0 - Pie
+
+background-image: linear-gradient(to right #3DDC84 #1A5C38)
+
+
+link: &#x1F517;

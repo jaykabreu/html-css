@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código fonte</h2>
+    <p>O comando <code>document.getElementByld('teste')</code> é escrito em linguagem de programação JavaScript.
+        <p>O texto ficou mono-espaçado com a tag CODE, usada para ler códigos de forma mais fácil, mas ele não organiza o espacamento de linha em linha, com indentação.</p>
+    <pre>
+        <code>
+    num = int(input('Digite um número'))
+    if num % 2 == 0:
+    print(f'O número {num} é PAR')
+    else:
+    print(f'O número {num} é ÍMPAR')
+    print('Fim do programa')
+        </code>
+    </pre>
+        <p>Para isso temos a tag PRE, que vai considerar espaços, quebras de linha, tabulações e tudo que estiver dentro dela, da forma representada acima.</p>
+    <h2>Citações</h2>
+    <p>Como diria Marcelo Mendonça: <q>A gente dorme e fica pensando</q>.</p>
+    <p>Citação simples (mesma linha) usando a tag Q.</p>
+    <h2>Citações completas</h2>
+    <p>Segundo Harari, em seu livro Sapiens:</p>
+    <blockquote cite="https://www.google.com.br/books/edition/Sapiens_Hist%C3%B3ria_Breve_da_Humanidade/NZZWEAAAQBAJ?hl=pt-BR&gbpv=0&kptab=overview">
+        Possuímos uma abundância de primos incivilizados como houve um período em que também tínhamos alguns irmãos e irmãs. Estamos acostumados a pensar em nós como os únicos serers humanos porque, durante os últimos 10 mil anos, a nossa espécie foi, de facto, a única espécie humana no planeta.
+    </blockquote>
+    <p>Citação completa (Com espaçamento e em bloco) usando a tag BLOCKQUOTE.</p>
+    <p>Lembrando que essas aspas são para citações, se não for, pode usar aspas mesmo.</p>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr></p>
+    <p>Colocamos os significados nas abreviações com a tag ABBR.</p>
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p>
+    <p>Invertemos o sentido do texto com a tag BDO.</p><!--Só tem rtl ou ltr como parâmetro-->
+</body>
+</html>

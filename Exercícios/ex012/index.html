@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <hr>
+    <p>Este vídeo está hospedado no meu própio servidor (notebook)</p>
+    <video width="560" poster="imagens/thumb.jpg" preload="metadata" controls muted>
+        <source src="midia/foguete-2.webm" type="video/webm">
+        <source src="midia/foguete-1.mkv" type="video/mp4">
+        <source src="midia/foguete-3.mp4" type="video/mp4">
+        <source src="midia/foguete-4.ogv" type="video/ogg">
+        <p>Infelizmente, seu navegador não consegue reproduzir esse vídeo...</p>
+    </video>
+    <p>Isso é mais simples do que imaginava.</p>
+    <h1>Inserindo vídeos hospedados externamente</h1>
+    <h2>Youtube</h2>
+    <p>Aqui está um vídeo incorporado do Youtube que não vai consumir a nossa banda.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=IfHS0FvLFVVmpISi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h2>Vimeo</h2>
+    <iframe src="https://player.vimeo.com/video/666311061?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="Corrida dos Ratos - Você se identifica?"></iframe>
+</body>
+</html>
