@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 600px;
+            height: 300px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            border: 1px solid black;
+            padding: 10px;
+            margin-bottom: 5px;
+            font:1.2em Arial, Helvetica, sans-serif;
+        }
+
+        th,td {
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <caption>
+            <strong>Filmes Favoritos</strong>
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupo</th>
+                <th scope="col">Nomes</th>
+                <th scope="colgroup" colspan="3">Filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="rowgroup" rowspan="3">Mulheres</th>
+                <td>Ana Vitória</td>
+                <td>Inception</td>
+                <td>Titanic</td>
+                <td>Gladiator</td>
+            </tr>
+            <tr>
+                <td>Anny Beatriz</td>
+                <td>Shrek</td>
+                <td>A Babá</td>
+                <td>Parasite</td>
+            </tr>
+            <tr>
+                <td>Gabriella</td>
+                <td>O Coringa</td>
+                <td>Amélie</td>
+                <td>Duna</td>
+            </tr>
+            <tr>
+                <th scope="rowgroup" rowspan="3">Homens</th>
+                <td>Brenno</td>
+                <td>Alien</td>
+                <td>Toy Story</td>
+                <td>Casablanca</td>
+            </tr>
+            <tr>
+                <td>Jayk</td>
+                <td>Interestellar</td>
+                <td>Gigantes de Aço</td>
+                <td>Wall-e</td>
+            </tr>
+            <tr>
+                <td>Marcos</td>
+                <td>Matrix</td>
+                <td>Pânico</td>
+                <td>O Poço</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

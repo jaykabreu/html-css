@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 600px;
+            height: 300px;
+            border-collapse: collapse;
+        }
+
+        col.nome, .profissao {
+            background-color: lightgrey;
+        }
+
+        col.grupo {
+            background-color: bisque;
+        }
+
+        caption {
+            border: 1px solid black;
+            background-color: bisque;
+            padding: 10px;
+            margin-bottom: 5px;
+            font:1.2em Arial, Helvetica, sans-serif;
+        }
+
+        th,td {
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabela com Colgroup</h1>
+    <table>
+
+        <colgroup>
+        <col class="nome">
+        <col class="grupo" span="2">
+        <col class="profissao">
+        </colgroup>
+
+        <caption>
+            Cadastro
+        </caption>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Sexo</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ana Clara</td>
+                <td>F</td>
+                <td>28</td>
+                <td>Designer Gráfica</td>
+            </tr>
+            <tr>
+                <td>Carlos Henrique</td>
+                <td>M</td>
+                <td>34</td>
+                <td>Engenheiro Civil</td>
+            </tr>
+            <tr>
+                <td>Mariana Souza</td>
+                <td>F</td>
+                <td>22</td>
+                <td>Médica Veterinária</td>
+            </tr>
+            <tr>
+                <td>João Pedro</td>
+                <td>M</td>
+                <td>40</td>
+                <td>Chef de Cozinha</td>
+            </tr>
+            <tr>
+                <td>Lucas Andrade</td>
+                <td>M</td>
+                <td>31</td>
+                <td>Desenvolvedor Júnior</td>
+            </tr>
+            <tr>
+                <td>Beatriz Peixoto</td>
+                <td>F</td>
+                <td>17</td>
+                <td>Psicóloga</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
