@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navegação no iframe</title>
+    <style>
+
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: bisque;
+            color: rgb(126, 0, 0);
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(126, 0, 0);
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        iframe {
+            display: block;
+            margin: 50% auto;
+            width: 90vw;
+            height: 45vw;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <h2>Clique abaixo:</h2>
+    <ul type="circle">
+        <li><a href="paginas-extras/jogo.html" rel="next" target="quadro">Primeira opção</a></li>
+        <li><a href="paginas-extras/nada.html" rel="next" target="quadro">Segunda opção</a></li>
+        <li><a href="paginas-extras/gol-alemanha.html" rel="next" target="quadro">Terceira opção</a></li>
+    </ul>
+
+    <iframe name="quadro" frameborder="1"></iframe>
+</body>
+</html>
